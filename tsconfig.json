@@ -1,4 +1,10 @@
 {
+  "compilerOptions": {
+    "baseUrl": "./", // 基本路徑，通常設為專案根目錄
+    "paths": {
+      "@/*": ["src/*"] // 路徑別名設定
+    }
+  },
   "files": [],
   "references": [
     {
@@ -10,5 +16,15 @@
     {
       "path": "./tsconfig.vitest.json"
     }
+  ],
+  "include": [
+    "src/**/*.js",
+    "src/**/*.ts",
+    "src/**/*.tsx",
+    "src/**/*.jsx",
+    "src/**/*.vue",
+    "src/**/*.d.ts",
+    "vite.config.ts",
+    "./types/auto-imports.d.ts"
   ]
 }
