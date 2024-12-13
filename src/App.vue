@@ -2,13 +2,9 @@
 </script>
 
 <template>
-  <main class="flex justify-center items-center flex-col px-[20px] gap-4">
-    <div class="text-xl text-sky-500">欢迎使用 random-number-system</div>
-    <el-button type="primary">開始</el-button>
-    <p class="text-gray-500 text-sm">
-      它可以自动生成给定范围内的随机正整数，可用帮你打乱顺序记东西：比如记英语单词~
-    </p>
-  </main>
+  <div id="layout" class="h-screen overflow-x-hidden overflow-y-hidden">
+    <AppMain/>
+  </div>
 </template>
 
 <style scoped>
