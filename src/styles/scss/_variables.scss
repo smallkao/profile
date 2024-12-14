@@ -1,0 +1,127 @@
+$screen-md: 768px;
+$screen-lg: 992px;
+$screen-xl: 1200px;
+$screen-xxl: 1400px;
+
+@mixin md {
+    @media (min-width: $screen-md) {
+        @content;
+    }
+}
+@mixin lg {
+    @media (min-width: $screen-lg) {
+        @content;
+    }
+}
+@mixin xl {
+    @media (min-width: $screen-xl) {
+        @content;
+    }
+}
+@mixin xxl {
+    @media (min-width: $screen-xxl) {
+        @content;
+    }
+}
+
+:root {
+    --color-gray-50: #fafaf9;
+    --color-gray-100: #f5f5f4;
+    --color-gray-200: #e7e5e4;
+    --color-gray-300: #d6d3d1;
+    --color-gray-400: #a8a29e;
+    --color-gray-500: #78716c;
+    --color-gray-600: #57534e;
+    --color-gray-700: #44403c;
+    --color-gray-800: #292524;
+    --color-gray-900: #1c1917;
+    --color-gray-900-rgb: 28, 25, 23;
+    --color-gray-50-rgb: 250, 250, 249;
+    --color-red-50: #fef2f2;
+    --color-red-100: #fee2e2;
+    --color-red-200: #fecaca;
+    --color-red-300: #fca5a5;
+    --color-red-400: #f87171;
+    --color-red-500: #ef4444;
+    --color-red-600: #dc2626;
+    --color-red-700: #b91c1c;
+    --color-red-800: #991b1b;
+    --color-red-900: #7f1d1d;
+    --color-red-600-rgb: 220, 38, 38;
+    --color-amber-50: #fffbeb;
+    --color-amber-100: #fef3c7;
+    --color-amber-200: #fde68a;
+    --color-amber-300: #fcd34d;
+    --color-amber-400: #fbbf24;
+    --color-amber-500: #f59e0b;
+    --color-amber-600: #d97706;
+    --color-amber-700: #b45309;
+    --color-amber-800: #92400e;
+    --color-amber-900: #78350f;
+    --color-amber-900-rgb: 120, 53, 15;
+    --color-blue-50: #eff6ff;
+    --color-blue-100: #dbeafe;
+    --color-blue-200: #bfdbfe;
+    --color-blue-300: #93c5fd;
+    --color-blue-400: #60a5fa;
+    --color-blue-500: #3b82f6;
+    --color-blue-600: #2563eb;
+    --color-blue-700: #1d4ed8;
+    --color-blue-800: #1e40af;
+    --color-blue-900: #1e3a8a;
+    --color-blue-600-rgb: 37, 99, 235;
+    --color-blue-900-rgb: 30, 58, 138;
+    // --color-primary-50: #fef2f2;
+    // --color-primary-100: #fee2e2;
+    // --color-primary-200: #fecaca;
+    // --color-primary-300: #fca5a5;
+    // --color-primary-400: #f87171;
+    // --color-primary-500: #ef4444;
+    // --color-primary-600: #dc2626;
+    // --color-primary-700: #b91c1c;
+    // --color-primary-800: #991b1b;
+    // --color-primary-900: #7f1d1d;
+    // --color-primary-600-rgb: 220, 38, 38;
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    --color-primary-50: rgb(240 249 255);
+    --color-primary-100: rgb(224 242 254);
+    --color-primary-200: rgb(186 230 253);
+    --color-primary-300: rgb(125 211 252);
+    --color-primary-400: rgb(56 189 248);
+    --color-primary-500: rgb(14 165 233);
+    --color-primary-600: rgb(2 132 199);
+    --color-primary-700: rgb(3 105 161);
+    --color-primary-800: rgb(7 89 133);
+    --color-primary-900: rgb(12 74 110)
+    --color-primary-600-rgb:  5, 150, 105 ;
+    --shadow: 0 4px 6px rgba(0, 0, 0, 0.16);
+    --html-font-base: 100%;
+    --font-size-sm: 0.875rem; // 14px
+    --font-size-base: 1rem; // 16px
+    --font-size-lg: 1.125rem; // 18px
+    --font-size-xl: 1.25rem; // 20px
+    --font-size-2xl: 1.5rem; // 24px
+    --font-size-3xl: 1.875rem; // 30px
+    --font-size-4xl: 2.25rem; // 36px
+}
+$increments: (50, 100, 200, 300, 400, 500, 600, 700, 800, 900);
+@each $increment in $increments {
+    .bg-primary-#{$increment} {
+        background-color: var(--color-primary-#{$increment});
+    }  
+    .border-primary-#{$increment} {
+        border-color: var(--color-primary-#{$increment});
+    }  
+    .text-primary-#{$increment} {
+        color: var(--color-primary-#{$increment});
+    }
+}
