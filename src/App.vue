@@ -1,8 +1,9 @@
 <script setup lang="ts">
+
 </script>
 
 <template>
-  <div id="layout" class="h-screen overflow-x-hidden overflow-y-hidden">
+  <div id="layout" class="overflow-x-hidden">
     <AppMain/>
   </div>
 </template>
