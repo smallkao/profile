@@ -3,7 +3,12 @@
     "baseUrl": "./", // 基本路徑，通常設為專案根目錄
     "paths": {
       "@/*": ["src/*"] // 路徑別名設定
-    }
+    }, 
+    "module": "es2020",       // 使用 es2020 模塊系統
+    "target": "es2020",       // 使用較高的 JavaScript 版本來支持新的特性
+    "lib": ["dom", "es2020"], // 引入 dom 和 es2020 特性
+    "strict": true,           // 開啟嚴格模式
+    "moduleResolution": "node"
   },
   "files": [],
   "references": [

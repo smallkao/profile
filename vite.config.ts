@@ -4,7 +4,8 @@ import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import AutoImport from 'unplugin-auto-import/vite'
-import Components from 'unplugin-vue-components/vite' 
+import Components from 'unplugin-vue-components/vite'
+import { ElementPlusResolver } from 'unplugin-vue-components/resolvers'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
@@ -12,12 +13,13 @@ export default defineConfig({
     vueDevTools(),
     Components({
       dirs: ['src/components',],
-      // resolvers: [ElementPlusResolver()],
+      resolvers: [ElementPlusResolver()],
       extensions: ['vue'],
       // 配置文件生成位置
       dts: 'src/components.d.ts',
     }),
     AutoImport({
+      resolvers: [ElementPlusResolver()],
       include: [
         /\.[tj]sx?$/, // .ts, .tsx, .js, .jsx
         /\.vue$/,
@@ -58,4 +60,11 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url)),
     },
   },
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@use "@/styles/scss/_variables.scss" as *;`,
+      },
+    },
+  }
 })

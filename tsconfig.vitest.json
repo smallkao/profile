@@ -6,7 +6,7 @@
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.vitest.tsbuildinfo",
     "baseUrl": "./", // 設置基本路徑，指向專案根目錄
     "paths": {
-      "@/*": ["src/*"] // 別名設定
+      "@/*": ["./src/*"] // 別名設定
     },
     "allowImportingTsExtensions": false, // 允許匯入 .ts
     "noEmit": false, // 不產生編譯輸出
