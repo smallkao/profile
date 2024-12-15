@@ -3,9 +3,7 @@
 </script>
 
 <template>
-  <div id="layout" class="overflow-x-hidden">
-    <AppMain/>
-  </div>
+  <AppMain/>
 </template>
 
 <style scoped>

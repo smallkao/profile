@@ -1,11 +1,11 @@
 @import './base.css';
 
-#app {
+/* #app {
   max-width: 1600px;
   margin: 0 auto;
   padding: 1rem;
   font-weight: normal;
-}
+} */
 
 @media (hover: hover) {
   a:hover {

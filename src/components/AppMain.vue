@@ -1,5 +1,5 @@
 <template>
-  <main class="min-h-screen">
+  <main class="flex flex-col min-h-[100vh]">
     <router-view v-slot="{ Component }">
       <component :is="Component" />
     </router-view>
