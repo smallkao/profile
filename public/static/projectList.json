@@ -8,9 +8,17 @@
         "id":1,
         "title":"水利空間資料整合應用平臺",
         "description":"",
-        "technologies":["vue.js","openlayers"],
+        "technologies":["vue.js","openlayers","tailwind","element Plus"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/integration/index.png"]
+      },
+      {
+        "id":2,
+        "title":"出流管制管理系統",
+        "description":"",
+        "technologies":["vue.js", "openlayers", "jquery", "boostrap","tailwind"],
+        "websiteUrl":"",
+        "images":["/img/wraweb/index.png"]
       },
       {
         "id":2,
@@ -18,7 +26,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/ACE/index.png"]
       },
       {
         "id":3,
@@ -26,7 +34,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/wra04/index.png"]
       },
       {
         "id":4,
@@ -34,7 +42,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/river/index.png"]
       },
       {
         "id":5,
@@ -42,7 +50,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/cnu3d/index.png"]
       },
       {
         "id":6,
@@ -50,7 +58,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/ardswc/index.png"]
       }
     ],
     "framework":[
@@ -60,7 +68,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/gismodule/index.png"]
       },
       {
         "id":2,
@@ -68,7 +76,7 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":[]
+        "images":["/img/layerManage/index.png"]
       }
     ]
 

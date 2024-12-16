@@ -9,11 +9,9 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppMain: typeof import('./components/AppMain.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
-    ElCard: typeof import('element-plus/es')['ElCard']
     ElEmpty: typeof import('element-plus/es')['ElEmpty']
-    ElScrollbar: typeof import('element-plus/es')['ElScrollbar']
+    ElImage: typeof import('element-plus/es')['ElImage']
     ElTag: typeof import('element-plus/es')['ElTag']
-    HelloWorld: typeof import('./components/HelloWorld.vue')['default']
     IconCommunity: typeof import('./components/icons/IconCommunity.vue')['default']
     IconDocumentation: typeof import('./components/icons/IconDocumentation.vue')['default']
     IconEcosystem: typeof import('./components/icons/IconEcosystem.vue')['default']
@@ -21,7 +19,6 @@ declare module 'vue' {
     IconTooling: typeof import('./components/icons/IconTooling.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    TheWelcome: typeof import('./components/TheWelcome.vue')['default']
     WelcomeItem: typeof import('./components/WelcomeItem.vue')['default']
   }
   export interface ComponentCustomProperties {
