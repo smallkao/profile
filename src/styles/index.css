@@ -36,7 +36,7 @@
 
     color: #1f2937;
     touch-action: manipulation;
-    
+    font-family: "微軟正黑體";
   }
   body::-webkit-scrollbar {
     width: 8px;  /* 垂直滾動條的寬度 */

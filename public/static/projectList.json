@@ -8,9 +8,11 @@
         "id":1,
         "title":"水利空間資料整合應用平臺",
         "description":"",
-        "technologies":["vue.js","openlayers","tailwind","element Plus"],
+        "technologies":["vue.js","vite","openlayers","tailwind","element Plus","jquery", "boostrap","tailwind","ckeditor"],
         "websiteUrl":"",
-        "images":["/img/integration/index.png"]
+        "images":["/img/integration/index.png"],
+        "techNature":["承接前人專案","功能翻新","維運","主開發人員","功能擴展","專案重構"],
+        "nature":["MIS", "GIS"]
       },
       {
         "id":2,
@@ -18,7 +20,9 @@
         "description":"",
         "technologies":["vue.js", "openlayers", "jquery", "boostrap","tailwind"],
         "websiteUrl":"",
-        "images":["/img/wraweb/index.png"]
+        "images":["/img/wraweb/index.png"],
+        "techNature":["主開發人員","資料庫架構承接", "維運", "專案部分重構"],
+        "nature":["MIS", "GIS"]
       },
       {
         "id":2,
@@ -26,15 +30,19 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":["/img/ACE/index.png"]
+        "images":["/img/ACE/index.png"],
+        "techNature":["協同開發"],
+        "nature":["GIS"]
       },
       {
         "id":3,
         "title":"濁水溪河川區域土地管理查詢",
         "description":"",
-        "technologies":["vue.js","openlayers"],
+        "technologies":["vue.js","openlayers","tailwind"],
         "websiteUrl":"",
-        "images":["/img/wra04/index.png"]
+        "images":["/img/wra04/index.png"],
+        "techNature":["主開發人員"],
+        "nature":["MIS", "GIS"]
       },
       {
         "id":4,
@@ -42,23 +50,29 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":["/img/river/index.png"]
+        "images":["/img/river/index.png"],
+        "techNature":["協同開發"],
+        "nature":["MIS", "GIS"]
       },
       {
         "id":5,
         "title":"原住民族地區資源評估系統",
         "description":"",
-        "technologies":["vue.js","openlayers"],
+        "technologies":["vue.js", "openlayers", "jquery", "boostrap"],
         "websiteUrl":"",
-        "images":["/img/cnu3d/index.png"]
+        "images":["/img/cnu3d/index.png"],
+        "techNature":["協同開發","專案重構"],
+        "nature":["MIS","GIS"]
       },
       {
         "id":6,
         "title":"公務預算補助系統",
-        "description":"",
-        "technologies":["vue.js","openlayers"],
+        "description":"配合農業部組改納入農業部提供之近 5 年補助縣（市）政府執行「加強農地利用管理計畫」、「強化農地環境維護管理計畫」資料，並擴充線上申請農地水土保持設施相關補助填報功能，可於補助系統自動產出報表格式。並配合擴充核銷時直接代入會計報告實支數欄位，新增相同層級項下計畫內之請款作業，方便承辦單位可選擇多筆作業，以及農村再生相關資訊系統及補助計畫管理系統服務串接作業，提供包含縣市政府所研提之補助計畫、農村產業跨域計畫及農村",
+        "technologies":["vue.js","vite","openlayers","jquery", "boostrap","tailwind"],
         "websiteUrl":"",
-        "images":["/img/ardswc/index.png"]
+        "images":["/img/ardswc/index.png"],
+        "techNature":["主開發人員","專案重構"],
+        "nature":["MIS"]
       }
     ],
     "framework":[
@@ -68,7 +82,9 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":["/img/gismodule/index.png"]
+        "images":["/img/gismodule/index.png"],
+        "techNature":[],
+        "nature":[]
       },
       {
         "id":2,
@@ -76,7 +92,9 @@
         "description":"",
         "technologies":["vue.js","openlayers"],
         "websiteUrl":"",
-        "images":["/img/layerManage/index.png"]
+        "images":["/img/layerManage/index.png"],
+        "techNature":[],
+        "nature":[]
       }
     ]
 
