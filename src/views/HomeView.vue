@@ -1,10 +1,12 @@
 <script setup lang="ts">
+  const baseUrl: string = import.meta.env.VITE_BASE_URL;
+  console.log(baseUrl)
   const router = useRouter()
-  import { ProjectOverview} from "@/interfaces/project";
+  import type { ProjectOverview} from "@/interfaces/project";
   import httpRequest from "@/services/axios";
   const loading=ref(false);
   const ususalLink={
-    projectList:"/static/projectList.json"
+    projectList:`${baseUrl}/static/projectList.json`
   }
   const projectList=ref<ProjectOverview[]>([]);
   const frameWorkList=ref<ProjectOverview[]>([]);
@@ -29,13 +31,13 @@
   <section class="w-full flex flex-col p-2 gap-6 items-center" v-loading="loading" element-loading-text="服務讀取中，請稍候。">
     <p class="w-auto flex text-tenter justify-center text-[1.5rem] bold border-b-[.3rem] border-sky-200 tracking-wider">作品集</p>
     <Transition enter-active-class="animate__animated animate__fadeInUp animate__fast">
-     
+
       <article v-if="projectList.length>0" class="w-full max-w-[1280px] grid grid-cols-3 sm:grid-cols-1 gap-2">
 
         <div v-for="item in projectList" class="card relative flex flex-col border rounded cusuor-poniter cursor-pointer hover:shadow-lg gap-2 sm:w-full" :key="'prj_'+item.id" >
           <el-image
             style="width: 100%; height: auto"
-            :src="item.images?.[0]"
+            :src="item.images"
             :zoom-rate="1.2"
             :max-scale="7"
             :min-scale="0.2"
@@ -51,7 +53,7 @@
           </div>
           <el-button class="relative ml-auto bottom-0  text-[1rem] bold" @click="changePage(item.id)">...more</el-button>
         </div>
-        
+
       </article>
     </Transition>
     <p class="w-auto flex text-tenter justify-center text-[1.5rem] bold border-b-[.3rem] border-sky-200 tracking-wider">應用開發框架</p>
@@ -79,6 +81,6 @@
 </template>
 
 <style lang="scss" scoped>
- 
+
 
 </style>

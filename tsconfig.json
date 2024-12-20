@@ -8,7 +8,9 @@
     "target": "es2020", // 使用較高的 JavaScript 版本來支持新的特性
     "lib": ["dom", "es2020"], // 引入 dom 和 es2020 特性
     "strict": true, // 開啟嚴格模式
-    "moduleResolution": "node16"
+    "moduleResolution": "node16",
+    "types": ["element-plus/global"],
+    "skipLibCheck": true,
   },
   "files": [],
   "references": [
@@ -31,5 +33,6 @@
     "vite.config.ts",
     "./types/auto-imports.d.ts"
   ],
+  
   "exclude": ["node_modules", "dist", "build"]
 }

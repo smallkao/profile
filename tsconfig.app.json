@@ -3,13 +3,19 @@
   "include": ["env.d.ts", "src/**/*", "src/**/*.vue","src/types/auto-imports.d.ts","components.d.ts"],
   "exclude": ["src/**/__tests__/*"],
   "compilerOptions": {
+    
+    "allowSyntheticDefaultImports": true, // 允许默认导入
     "allowImportingTsExtensions": true,
-    "emitDeclarationOnly": true,
     "composite": true,
     "tsBuildInfoFile": "./node_modules/.tmp/tsconfig.app.tsbuildinfo",
-    "noEmit": false,
     "paths": {
       "@/*": ["./src/*"]
-    }
+    },
+    "declarationDir": "./typings",  // 指定生成的 `.d.ts` 文件的輸出目錄
+    "emitDeclarationOnly": true,   // 僅生成聲明文件
+    "noEmit": false,               // 確保生成文件
+    "outDir": "./dist",            // 指定輸出的根目錄
+    "skipLibCheck": true           // 跳過類型檢查以防止庫錯誤
+    
   }
 }

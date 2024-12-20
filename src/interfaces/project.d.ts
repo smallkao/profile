@@ -7,6 +7,6 @@ export  interface ProjectOverview {
   techNature: string[]
   nature: string[]
   images: string // 專案相關圖片
-  previewList?: TexImageSource[]
+  previewList?: string[]
   course?: string[] // 專案相關圖片
 }

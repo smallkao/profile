@@ -18,7 +18,6 @@ declare module 'vue' {
     IconTooling: typeof import('./components/icons/IconTooling.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
-    WelcomeItem: typeof import('./components/WelcomeItem.vue')['default']
   }
   export interface ComponentCustomProperties {
     vLoading: typeof import('element-plus/es')['ElLoadingDirective']

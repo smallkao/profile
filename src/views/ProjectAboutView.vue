@@ -1,9 +1,10 @@
 <script setup lang="ts">
-  import { ProjectOverview} from "@/interfaces/project";
+  const baseUrl: string = import.meta.env.VITE_BASE_URL;
+  import type { ProjectOverview} from "@/interfaces/project";
   import httpRequest from "@/services/axios";
   const loading=ref(false);
   const ususalLink={
-    projectList:"/static/projectList.json"
+    projectList:`${baseUrl}/static/projectList.json`
   }
   const router = useRouter()
   const route = useRoute();
@@ -23,8 +24,8 @@
 </script>
 <template>
   <section class="w-full flex flex-col p-2 gap-6  items-start
-    py-[3em] min-h-[100vh]  relative text-[#333]" 
-    
+    py-[3em] min-h-[100vh]  relative text-[#333]"
+
     v-loading="loading" element-loading-text="服務讀取中，請稍候。">
     <div class="absolute inset-0 bg-repeat bg-center opacity-50  "
       :style="'background-image: url(/img/bg-twbasin.png)'">
@@ -35,7 +36,7 @@
         <div class="flex gap-2 items-center ">
           <h2 class="w-auto border-b-[.5rem]  text-[#8cbabd] border-[#8cbabd] font-extrabold text-[1.5rem] bold">{{activeProject.title}}</h2>
         </div>
-        
+
         <span class="min-h-[30vh] bg-[#fff] border border-[#8cbabd] rounded p-2 w-full text-[1.25rem]">
           <p>系統介紹:</p>
           <p class="px-2">{{activeProject.description}}</p>
@@ -58,7 +59,7 @@
                 </template>
               </div>
             </div>
-  
+
           </div>
           <div class="w-full flex flex-col min-h-[25vh] gap-4 text-[1rem] font-bold bg-[#fff] border-2 border-[#8cbabd] rounded p-2">
             <span class="font-bold text-[1.25rem]">關卡:</span>
@@ -67,7 +68,7 @@
             </ul>
           </div>
         </div>
-        
+
       </div>
     </Transition>
   </section>
@@ -75,7 +76,7 @@
 
 <style>
 @media (min-width: 1024px) {
-  
+
   .about {
     min-height: 100vh;
     display: flex;
