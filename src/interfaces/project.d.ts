@@ -6,7 +6,7 @@ export  interface ProjectOverview {
   websiteUrl?: string // 專案官方網站或預覽網址，可選
   techNature: string[]
   nature: string[]
-  images?: ImageResource[] // 專案相關圖片
-  previewList?:ImageResource[]
+  images: string // 專案相關圖片
+  previewList?: TexImageSource[]
   course?: string[] // 專案相關圖片
 }

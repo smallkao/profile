@@ -9,7 +9,6 @@ declare module 'vue' {
   export interface GlobalComponents {
     AppMain: typeof import('./components/AppMain.vue')['default']
     ElButton: typeof import('element-plus/es')['ElButton']
-    ElEmpty: typeof import('element-plus/es')['ElEmpty']
     ElImage: typeof import('element-plus/es')['ElImage']
     ElTag: typeof import('element-plus/es')['ElTag']
     IconCommunity: typeof import('./components/icons/IconCommunity.vue')['default']

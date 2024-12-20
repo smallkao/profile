@@ -35,12 +35,12 @@
         <div v-for="item in projectList" class="card relative flex flex-col border rounded cusuor-poniter cursor-pointer hover:shadow-lg gap-2 sm:w-full" :key="'prj_'+item.id" >
           <el-image
             style="width: 100%; height: auto"
-            :src="item.images[0]"
+            :src="item.images?.[0]"
             :zoom-rate="1.2"
             :max-scale="7"
             :min-scale="0.2"
             :preview-src-list="item.previewList"
-            :initial-index="item.previewList.length"
+            :initial-index="item.previewList?.length"
             fit="cover"
           />
           <div class="title  text-[1rem] bold">{{item.title}}</div>
@@ -59,7 +59,7 @@
       <div v-for="item in frameWorkList" :key="'frameWork_'+item.id" class="card  flex flex-col border rounded cusuor-poniter cursor-pointer hover:shadow-lg">
         <el-image
           style="width: 100%; height: auto"
-          :src="item.images[0]"
+          :src="item.images"
           :zoom-rate="1.2"
           :max-scale="7"
           :min-scale="0.2"
