@@ -13,7 +13,15 @@
         "images":["/img/integration/index.png"],
         "techNature":["承接前人專案","功能翻新","維運","主開發人員","功能擴展","專案重構"],
         "nature":["MIS", "GIS"],
-        "course":["開源軟體的技術熟悉","舊功能的翻新","資料龐大資源載入時間點"]
+        "course":["開源軟體的技術熟悉","舊功能的翻新","資料龐大資源載入時間點"],
+        "previewList":[
+          "/img/integration/list/1.png",
+          "/img/integration/list/2.png",
+          "/img/integration/list/3.jpg",
+          "/img/integration/list/4.png",
+          "/img/integration/list/5.png",
+          "/img/integration/list/6.png"
+        ]
       },
       {
         "id":2,
@@ -24,7 +32,17 @@
         "images":["/img/wraweb/index.png"],
         "techNature":["主開發人員","資料庫架構承接", "維運", "專案部分重構"],
         "nature":["MIS", "GIS"],
-        "course":["資料庫未正規化引發的連鎖問題", "系統架構的迭代更新", "多重角色的切換問題","資料統計數值落差"]
+        "course":["資料庫未正規化引發的連鎖問題", "系統架構的迭代更新", "多重角色的切換問題","資料統計數值落差"],
+        "previewList":[
+          "/img/wraweb/list/1.png",
+          "/img/wraweb/list/2.jpg",
+          "/img/wraweb/list/3.png",
+          "/img/wraweb/list/4.jpg",
+          "/img/wraweb/list/5.png",
+          "/img/wraweb/list/6.jpg",
+          "/img/wraweb/list/7.png",
+          "/img/wraweb/list/8.png"
+        ]
       },
       {
         "id":2,
@@ -35,7 +53,15 @@
         "images":["/img/ACE/index.png"],
         "techNature":["協同開發"],
         "nature":["GIS"],
-        "course":["協同開發人員進度未達預期", "資料入庫時間點", "定時行程表流程","城市部屬docker設定"]
+        "course":["協同開發人員進度未達預期", "資料入庫時間點", "定時行程表流程","城市部屬docker設定"],
+        "previewList":[
+          "/img/ACE/list/1.png",
+          "/img/ACE/list/2.png",
+          "/img/ACE/list/3.png",
+          "/img/ACE/list/4.png",
+          "/img/ACE/list/5.png",
+          "/img/ACE/list/6.png"
+        ]
       },
       {
         "id":3,
@@ -46,7 +72,13 @@
         "images":["/img/wra04/index.png"],
         "techNature":["主開發人員"],
         "nature":["MIS", "GIS"],
-        "course":["資料異動歷史保存"]
+        "course":["資料異動歷史保存"],
+        "previewList":[
+          "/img/wra04/list/1.png",
+          "/img/wra04/list/2.png",
+          "/img/wra04/list/3.png",
+          "/img/wra04/list/4.png"
+        ]
       },
       {
         "id":4,
@@ -57,7 +89,15 @@
         "images":["/img/river/index.png"],
         "techNature":["協同開發","專案整合"],
         "nature":["MIS", "GIS"],
-        "course":["資料載入速度過慢處理方法"]
+        "course":["資料載入速度過慢處理方法"],
+        "previewList":[
+          "/img/river/list/1.png",
+          "/img/river/list/2.png",
+          "/img/river/list/3.png",
+          "/img/river/list/4.png",
+          "/img/river/list/5.png",
+          "/img/river/list/6.png"
+        ]
       },
       {
         "id":5,
@@ -68,7 +108,13 @@
         "images":["/img/cnu3d/index.png"],
         "techNature":["協同開發","專案重構"],
         "nature":["MIS","GIS"],
-        "course":["子系統切換導向"]
+        "course":["子系統切換導向"],
+        "previewList":[
+          "/img/cnu3d/list/1.png",
+          "/img/cnu3d/list/2.png",
+          "/img/cnu3d/list/3.png",
+          "/img/cnu3d/list/4.png"
+        ]
       },
       {
         "id":6,
@@ -79,7 +125,15 @@
         "images":["/img/ardswc/index.png"],
         "techNature":["主開發人員","專案重構"],
         "nature":["MIS"],
-        "course":["大量表單新增刪改查","舊程式閱讀不易"]
+        "course":["大量表單新增刪改查","舊程式閱讀不易"],
+        "previewList":[
+          "/img/ardswc/list/1.png",
+          "/img/ardswc/list/2.png",
+          "/img/ardswc/list/3.png",
+          "/img/ardswc/list/4.png",
+          "/img/ardswc/list/5.png",
+          "/img/ardswc/list/6.png"
+        ]
       }
     ],
     "framework":[

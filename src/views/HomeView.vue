@@ -32,22 +32,24 @@
      
       <article v-if="projectList.length>0" class="w-full max-w-[1280px] grid grid-cols-3 sm:grid-cols-1 gap-2">
 
-        <div v-for="item in projectList" class="card  flex flex-col border rounded cusuor-poniter cursor-pointer hover:shadow-lg gap-2 sm:w-full" :key="'prj_'+item.id" @click="changePage(item.id)">
+        <div v-for="item in projectList" class="card relative flex flex-col border rounded cusuor-poniter cursor-pointer hover:shadow-lg gap-2 sm:w-full" :key="'prj_'+item.id" >
           <el-image
             style="width: 100%; height: auto"
             :src="item.images[0]"
             :zoom-rate="1.2"
             :max-scale="7"
             :min-scale="0.2"
-            :initial-index="4"
+            :preview-src-list="item.previewList"
+            :initial-index="item.previewList.length"
             fit="cover"
           />
-          <div class="title border-b text-[1rem] bold">{{item.title}}</div>
-          <div class="w-full flex flex-wrap gap-2 py-2">
+          <div class="title  text-[1rem] bold">{{item.title}}</div>
+          <div class="w-full border-y flex flex-wrap gap-2 py-2">
             <template :key="i" v-for="tag,i in item.technologies">
               <el-tag>{{tag}}</el-tag>
             </template>
           </div>
+          <el-button class="relative ml-auto bottom-0  text-[1rem] bold" @click="changePage(item.id)">...more</el-button>
         </div>
         
       </article>
