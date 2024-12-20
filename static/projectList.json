@@ -1,0 +1,165 @@
+{
+  "success":true,
+  "message":"",
+  "code":200,
+  "data":{
+    "list":[
+      {
+        "id":1,
+        "title":"水利空間資料整合應用平臺",
+        "description":"「水利空間資料整合應用平台」以水利署及所屬機關人員為使用對象，逐年更新與彙整水利空間圖資，以業務應用分類方式提供系統化套疊與展示。並依據使用需求，開發水利業務空間資訊查詢功能，除提供環境敏感區位分析，亦提供河川管理、治理規劃、勘測作業及其他水利業務參考應用。平台亦提供無人機業務管理功能，以掌握分署無人機應用情形。為因應逐年衍生水利空間資訊業務需求，本計畫辦理平台全面改版，開發個人化GIS圖台與行動查詢，提供友善且容易操作介面，以滿足各單位不同業務使用需求，強化平台安全性，提升水利空間資訊領域應用高度，將有益於未來發展水利大數據、水資源物聯網、水資源AI應用等領域應用。",
+        "technologies":["vue.js","vite","axios","openlayers","tailwind","element Plus","jquery", "boostrap","tailwind","ckeditor"],
+        "websiteUrl":"",
+        "images":"/img/integration/index.png",
+        "techNature":["承接前人專案","功能翻新","維運","主開發人員","功能擴展","專案重構"],
+        "nature":["MIS", "GIS"],
+        "course":["開源軟體的技術熟悉","舊功能的翻新","資料龐大資源載入時間點"],
+        "previewList":[
+          "/img/integration/list/1.png",
+          "/img/integration/list/2.png",
+          "/img/integration/list/3.jpg",
+          "/img/integration/list/4.png",
+          "/img/integration/list/5.png",
+          "/img/integration/list/6.png"
+        ]
+      },
+      {
+        "id":2,
+        "title":"出流管制管理系統",
+        "description":"配合108年2月頒佈施行水利法增訂出流管制專章及授權子法訂定，108 年度已針對出流管制規劃書及計畫書於申請、審查、開工、查核、管理等各階段作業研發各階段資料整合及管理系統，整合各階段作業資訊，並導入使用者端之需求及經驗，建立出流管制管理系統架構模組及管理系統，整合內政部營建署城鄉發展分署所提供之衛星變異點範圍，研發土地開發行為變異點通報及查報功能",
+        "technologies":["vue.js", "openlayers", "axios",  "jquery", "boostrap", "tailwind"],
+        "websiteUrl":"",
+        "images":"/img/wraweb/index.png",
+        "techNature":["主開發人員","資料庫架構承接", "維運", "專案部分重構"],
+        "nature":["MIS", "GIS"],
+        "course":["資料庫未正規化引發的連鎖問題", "系統架構的迭代更新", "多重角色的切換問題","資料統計數值落差"],
+        "previewList":[
+          "/img/wraweb/list/1.png",
+          "/img/wraweb/list/2.jpg",
+          "/img/wraweb/list/3.png",
+          "/img/wraweb/list/4.jpg",
+          "/img/wraweb/list/5.png",
+          "/img/wraweb/list/6.jpg",
+          "/img/wraweb/list/7.png",
+          "/img/wraweb/list/8.png"
+        ]
+      },
+      {
+        "id":2,
+        "title":"輻射災害第一線應變人員",
+        "description":"本系統提供予第一線應變人員，搭配課程教學模式及講師引導之用。透過輻射災害情境之設定及使用人員輸入之應變決策作為，運用系統加以模擬，課程結束後亦能針對應變決策作為加以檢討，以強化應變人員輻射災害應變處理及決策能力。本系統建置於雲端資料中心環境之中，並以網頁為操作介面，使用者可透過網際網路及瀏覽器操作本系統所有功能。系統架構主要包含四種類型之軟體規劃，分別為入口登入介面系統、系統管理端系統、教案使用端系統、教案內容管理端系統、系統帳號登入日誌及安全管理系統等。",
+        "technologies":["vue.js", "openlayers", "axios"],
+        "websiteUrl":"",
+        "images":"/img/ACE/index.png",
+        "techNature":["協同開發"],
+        "nature":["GIS"],
+        "course":["協同開發人員進度未達預期", "資料入庫時間點", "定時行程表流程","城市部屬docker設定"],
+        "previewList":[
+          "/img/ACE/list/1.png",
+          "/img/ACE/list/2.png",
+          "/img/ACE/list/3.png",
+          "/img/ACE/list/4.png",
+          "/img/ACE/list/5.png",
+          "/img/ACE/list/6.png"
+        ]
+      },
+      {
+        "id":3,
+        "title":"濁水溪河川區域土地管理查詢",
+        "description":"因濁水溪灘地平緩且土壤肥沃，種植許可於人數及面積皆為全國之冠，且河川區域內土地坵塊變化頻仍，種植許可資訊亦經常性異動，為有效管理河川區域內用地，透過無人飛行載具辦理航空攝影測量更新全流域影像，並數值化更新圖資；種植許可資料 109 年至 110 年已於開源軟體 QField 進行建置，本年度預計檢討流程並優化以利簡政便民服務；另研究透過影像辨識之相關技術進行種植類別分類，以提升智慧河川調查之應用面向。",
+        "technologies":["vue.js","openlayers","tailwind"],
+        "websiteUrl":"",
+        "images":"/img/wra04/index.png",
+        "techNature":["主開發人員"],
+        "nature":["MIS", "GIS"],
+        "course":["資料異動歷史保存"],
+        "previewList":[
+          "/img/wra04/list/1.png",
+          "/img/wra04/list/2.png",
+          "/img/wra04/list/3.png",
+          "/img/wra04/list/4.png"
+        ]
+      },
+      {
+        "id":4,
+        "title":"河川環境資訊平台",
+        "description":"為提升河川情勢調查與治理規劃等資料電子化，藉由資料庫建構與資訊系統發展，於96年起逐步推動河川環境資料庫之建置作業，配合各年度計畫辦理資料蒐集、盤點，逐年擴充整體平臺地圖服務、空間視覺化等服務框架，計畫整合各河川情勢調查資料，建立相關單位資料庫管理系統，有效管理各項資源運用，以利資源保育及經營管理業務推展",
+        "technologies":["vue.js","openlayers","boostrap"],
+        "websiteUrl":"",
+        "images":"/img/river/index.png",
+        "techNature":["協同開發","專案整合"],
+        "nature":["MIS", "GIS"],
+        "course":["資料載入速度過慢處理方法"],
+        "previewList":[
+          "/img/river/list/1.png",
+          "/img/river/list/2.png",
+          "/img/river/list/3.png",
+          "/img/river/list/4.png",
+          "/img/river/list/5.png",
+          "/img/river/list/6.png"
+        ]
+      },
+      {
+        "id":5,
+        "title":"原住民族地區資源評估系統",
+        "description":"「原住民區資源評估管理系統」主要業務應用，為利用網頁地理資訊功能，針對原民會轄管範圍內之自然環境、土地、人工建物等相關圖層，提供套疊、查詢、定位等服務。並提供評量各原住民溫泉區之土地環境分析、溫泉資源開發之條件、自然資源及地方產業豐富性等各項指標，以利原民會建立各原住民各鄉鎮溫泉區之定位、發展及補助優先順序",
+        "technologies":["vue.js", "openlayers", "jquery", "boostrap", "axios"],
+        "websiteUrl":"",
+        "images":"/img/cnu3d/index.png",
+        "techNature":["協同開發","專案重構"],
+        "nature":["MIS","GIS"],
+        "course":["子系統切換導向"],
+        "previewList":[
+          "/img/cnu3d/list/1.png",
+          "/img/cnu3d/list/2.png",
+          "/img/cnu3d/list/3.png",
+          "/img/cnu3d/list/4.png"
+        ]
+      },
+      {
+        "id":6,
+        "title":"公務預算補助系統",
+        "description":"配合農業部組改納入農業部提供之近 5 年補助縣（市）政府執行「加強農地利用管理計畫」、「強化農地環境維護管理計畫」資料，並擴充線上申請農地水土保持設施相關補助填報功能，可於補助系統自動產出報表格式。並配合擴充核銷時直接代入會計報告實支數欄位，新增相同層級項下計畫內之請款作業，方便承辦單位可選擇多筆作業，以及農村再生相關資訊系統及補助計畫管理系統服務串接作業，提供包含縣市政府所研提之補助計畫、農村產業跨域計畫及農村",
+        "technologies":["vue.js","vite","openlayers","jquery", "boostrap","tailwind"],
+        "websiteUrl":"",
+        "images":"/img/ardswc/index.png",
+        "techNature":["主開發人員","專案重構"],
+        "nature":["MIS"],
+        "course":["大量表單新增刪改查","舊程式閱讀不易"],
+        "previewList":[
+          "/img/ardswc/list/1.png",
+          "/img/ardswc/list/2.png",
+          "/img/ardswc/list/3.png",
+          "/img/ardswc/list/4.png",
+          "/img/ardswc/list/5.png",
+          "/img/ardswc/list/6.png"
+        ]
+      }
+    ],
+    "framework":[
+      {
+        "id":1,
+        "title":"基本圖資架構平台",
+        "description":"",
+        "technologies":["vue.js","openlayers"],
+        "websiteUrl":"",
+        "images":"/img/gismodule/index.png",
+        "techNature":[],
+        "nature":[],
+        "course":[]
+      },
+      {
+        "id":2,
+        "title":"圖資管理系統",
+        "description":"",
+        "technologies":["vue.js","openlayers"],
+        "websiteUrl":"",
+        "images":"/img/layerManage/index.png",
+        "techNature":[],
+        "nature":[],
+        "course":[]
+      }
+    ]
+
+  }
+}
